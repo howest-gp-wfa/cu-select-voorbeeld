@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/cssOef.css">
+  <script src="js/script.js"></script>
+  <title>Select beheren</title>
+</head>
+
+<body>
+
+  <h1>Een select beheren</h1>
+  <h2>Steden</h2>
+  <label for="txtNieuw">Nieuw :</label> <input id="txtNieuw" type="text" />
+  <button id="btnVoegToe" class="btn-pink">Voeg toe</button>
+  <button id="btnWijzig" class="btn-yellow">Wijzig</button><br />
+  <label for="txtIndex">Selecteer stad :</label> <input id="txtIndex" type="number" />
+  <button id="btnSelecteer" class="btn-pink">Selecteer</button><br />
+   <label for="slcSteden" vertAlign="top">Steden</label> 
+  <select id="slcSteden" size="5" vertAlign="top"></select>
+  <label id="lblGeselecteerd" vertAlign="top">Niets geselecteerd</label><br />
+  <button id="btnVerwijder" class="btn-yellow">Verwijder</button>
+
+  
+  <div id="divResponse"></div>
+  <button id="btnVerwijderAlles" class="btn-yellow">Verwijder alles</button>
+
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+label {
+      width: 120px;
+      display: inline-block;
+      margin-left: 10px;
+}
+
+button {
+      margin-bottom: 10px;
+}
+
+
+[vertAlign='top'] {
+      float: left;
+}
+
+div {
+      clear : both;
+      padding-top: 15px;
+      padding-left: 110px;
+}
+
+#btnVerwijder {
+      margin-top: -15px;
+}
+
+#btnVerwijderAlles {
+      margin-left: 110px;
+}
